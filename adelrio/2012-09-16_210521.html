@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    
+    <title>对Principe for mars模板作3项微调 - DESTINY IS REAL</title>
+
+    <link rel="stylesheet" href="gitbook/style.css">
+    <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+    <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="book">
+        <div class="book-summary">
+            <nav role="navigation">
+                <ul class="summary">
+                    <li><a href="." target="blank" class="gitbook-link"><h2>DESTINY IS REAL</h2></a></li>
+                    <li class="divider"></li>
+                    <li><a href="全部标签.html">全部标签</a></li>
+<li><a href="全部日志.html">全部日志</a></li>
+<li><a href="点点图片.html">点点图片</a></li>
+<li><a href="点点文本.html">点点文本</a></li>
+<li><a href="点点视频.html">点点视频</a></li>
+<li><a href="点点音频.html">点点音频</a></li>
+<li><a href="点点链接.html">点点链接</a></li>
+<li><a href="点点特殊.html">点点特殊</a></li>
+
+                    <li class="divider"></li>
+                    <li><a href="https://www.python.org/" target="blank" class="gitbook-link">Powered by Python | Theme - GitBook</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="book-body">
+            <div class="body-inner">
+                <div class="book-header" role="navigation">
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                    </h1>
+                </div>
+                <div class="page-wrapper" tabindex="-1" role="main">
+                    <div class="page-inner">
+                        <section class="normal markdown-section">
+                            <h1>对Principe for mars模板作3项微调</h1><p>作者: xrspook</p><p>日期: 2012-09-16 21:05:21+08:00</p><p>分类: 点点文本</p><p>标签: 点点, 模板, principe, mars, 分页导航, 总页码, 日期, 显示, 列表, 2012</p><hr><p>今天对<a href="http://adelrio.diandian.com/"><strong>DESTINY IS REAL</strong></a>正在使用的模板Principe for mars做了3个小小的修改。</p><p><strong>第一个修改，在页面导航处加入了总页码。</strong></p><p> 如果，一个blog就那么几页内容而已，加不加总页码真的无所谓，但对DESTINY IS REAL来说，这个blog到我写这篇日志时为止已经有2485篇，以每6篇1页分页的话已经有415页了，总页码非常有必要！这代表分量，这代表沉淀！之前，我一直在纠结到底要不要加，因为如果到达4位页数的境界，这模板会不会被撑变形呢？不管那么多了，加了再说吧，大不了往后把5页一导航改为3页一导航。</p><p><strong>第二个修改，在文章列表页的时间那里实现鼠标划过显示详细日期。</strong></p><p> 怎么说呢，这个是为我自己准备的，点点默认的日期格式是倒计时，也就是说告诉你文章发布时间和现在系统时间相差多少。但如果我要准确找出某一天的文章，那就比较纳闷了，除非我按进去文章页（文章页我设置的显示模式是yyyy-mm-dd hh:mm:ss），否则很苦恼。实现这个功能以后，我就不用愁了，yeah~~~</p><p><strong>第三个修改，解决文章列表页li的混乱。</strong></p><p>这个模板最亮眼的地方莫过于滑动显示的列表页，这是用javascript实现的，默认层次就是div - ul - li，每个li下面再嵌套常规正文内容。这样问题就来了，如果正文里有ul有ol那么这就违反了只能用ul或ol套li不能反套的规则，更让人头大的是因为外层li已经设置了固定的格式，内层li必然会承继，于是就神经病了……因为DESTINY IS REAL一向不怎么用列表，所以这倒没什么问题，不过偶尔那个啥而已。这个问题长期存在不纠正过来始终不是办法，所以我就动手消灭它了。方法就是继续手动设定下一层ul、ol和li的格式，但很奇怪，很匪夷所思，为啥它们完全不理会我的list-style-type命令呢？Firebug明明是感知到了这个命令，但显示出来就是没有，难道是javascript里对其作了屏蔽？囧。CSS和XHTML我可以把它灭了，但JS…… 好吧，反正现在已经显示正常了，不过是少了列表图案而已，超出我能力范围了，不管……</p><p>原文来自：<a href="http://www.xlanda.net/posts/7315">http://www.xlanda.net/posts/7315</a></p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <a href="2012-09-16_225131.html" class="navigation navigation-prev "><i class="fa fa-angle-left"></i></a>
+<a href="2012-09-16_121648.html" class="navigation navigation-next "><i class="fa fa-angle-right"></i></a>
+        </div>
+        <script src="gitbook/gitbook_page.js"></script>
+    </div>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>    
+    <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+    <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+</body>
+
+</html>
